@@ -12,7 +12,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId)
+// console.log(id === anotherId)
 
 // const BigNumber = 123512351462346n
 
@@ -27,8 +27,34 @@ let myObj = {
 }
 
 const myFunction = function(){
-    console.log("Hello World");
+    // console.log("Hello World");
 }
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
 
+// ++++++++++++++++++++++++++++++++++++++++
+
+// stack Memory and Heap Memory
+// Primitive is a stack Memory
+// Non Primitive type is a heap Memory
+
+let myName = "JitendraBodana";
+
+let anotherName = myName;
+
+anotherName = "JeetBodana";
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "jitendrabodana@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
