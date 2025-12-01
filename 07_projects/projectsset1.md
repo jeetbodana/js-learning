@@ -8,11 +8,7 @@
 
 ## project 1
 
-``` 
-
-Javascript 
-
-```
+``` Javascript 
 
 console.log("Jitendra")
 
@@ -43,7 +39,7 @@ buttons.forEach(function (button) {
 });
 
 
-``` 
+```
 
 Project 2 Solution
 
@@ -86,3 +82,5 @@ setInterval(function(){
     let date = new Date();
     clock.innerHTML = date.toLocaleTimeString();
 }, 1000);
+
+```
