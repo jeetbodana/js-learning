@@ -8,7 +8,11 @@
 
 ## project 1
 
-``` Javascript 
+``` 
+
+Javascript 
+
+```
 
 console.log("Jitendra")
 
@@ -71,7 +75,9 @@ form.addEventListener('submit', function (e) {
 
 
 ```
+
 Project 3 Solution 
+
 ```
 
 const clock = document.getElementById('clock');
